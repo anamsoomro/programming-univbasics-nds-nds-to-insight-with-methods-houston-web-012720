@@ -9,6 +9,7 @@ def gross_for_director(director_data)
   while column < director_data[:movies].length do
     total += director_data[:movies][column]
     column += 1
+  end
 end
 
 # Write a method that, given an NDS creates a new Hash
